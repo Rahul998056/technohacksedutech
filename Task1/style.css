@@ -1,0 +1,104 @@
+.block{
+    height: 35rem;
+    width: 32%;
+    /* background-color: white; */
+    margin-top: 6rem;
+    margin-left: 33%;
+}
+
+.page{
+    height: 93%;
+    width: 100%;
+    /* background-color: white; */
+    border: 1px solid rgb(222, 217, 217);
+    border-radius: 0.5rem;
+}
+
+.logo{
+    height: 3.5rem;
+    width: 6rem;
+    background-image: url(google2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+.sign{
+    color: black;
+    font-size: 1.7rem;
+    margin-left: 28%;
+}
+
+.use{
+    color: rgb(53, 52, 52);
+    margin-top: 0.9rem;
+    font-size: 1.1rem;
+    margin-left: 30%;
+}
+
+.input{
+    border: border-box;
+    margin-left: 8%;
+    margin-top: 2.5rem;
+    height: 10%;
+    width: 78%;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    color: rgb(140, 137, 137);
+    margin-bottom: 2%;
+}
+
+.input:hover{
+    border: 2px solid blue;
+    color: white;
+}
+
+.forgot, .learn, .create{
+    text-decoration-line: none;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+    color: blue;
+    font-weight: bold;
+}
+
+.use-guest{
+    color: rgb(130, 126, 126);
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: 1rem;
+}
+
+.create{
+    text-decoration-line: none;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 1.1rem;
+}
+
+.last{
+    display: flex;
+}
+
+.next{
+    background-color: rgb(47, 47, 182);
+    color: white;
+    border: border-box;
+    height: 1.8rem;
+    width: 4.5rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 7px;
+    margin-left: 45%;
+    margin-top: 2.5rem;
+}
+
+.foot{
+    background-image: url(foot.png);
+    background-size: contain;
+    width: 96%;
+    height: 2rem;
+}
